@@ -13,16 +13,22 @@
         <div class="container">
             <div class="main-items">
                 <h1 class="title">Comments</h1>
-                <form action="">
-                    <textarea name="" placeholder="Share your experience..." id="comment-el"></textarea>
+                <form id="comment-form">
+                    <textarea name="comment" placeholder="Share your experience..." id="comment-el" required></textarea>
                     <div class="flex">
-                        <textarea name="" placeholder="Display name" id="name-el"></textarea>
-                        <button>Post</button> 
+                        <textarea name="name" placeholder="Display name" id="name-el" required></textarea>
+                        <button id="comment-btn" type="submit">Post</button> 
                     </div>
                 </form>
             </div>
         </div>
     </main>
+
+    <div class="comments">
+        <div class="container">
+            <div id="feed"></div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>

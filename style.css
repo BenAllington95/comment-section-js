@@ -14,7 +14,7 @@ h1 {
 
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 568px;
     margin: 0 auto;
 }
@@ -52,7 +52,7 @@ textarea {
 }
 
 button {
-    width: 30%; 
+    width: 35%; 
     padding: 1em;   
     border-radius: 4.5px;
     letter-spacing: 0.9px;
