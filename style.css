@@ -4,11 +4,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter';
 }
 
 h1 {
     margin: 0;
 }
+
+
 
 .container {
     width: 90%;
@@ -18,31 +21,45 @@ h1 {
 
 .main-items {
     background: #F9F8FF;
+    padding: 3em 1em;
+}
+
+.title {
+    margin-bottom: 0.75em;
 }
 
 textarea {
-    border: none;
+    background: #FFFDFD;
     resize: none;
-    padding: 10px;
-    font-size: 20px;
+    border: none;
+    padding: 7.5px;
+    font-size: 18px;
     line-height: 30px;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    border-radius: 4.5px;
 }
 
 #comment-el {
     height: 150px;
     width: 100%;
+    margin-bottom: 1em;
 }
 
 #name-el {
-    width: 50%;
-    height: 30px;
+    width: 60%;
+    height: 50px;
 }
 
 button {
     width: 30%; 
-    padding: 1em 1.5em;   
+    padding: 1em;   
     border-radius: 4.5px;
+    letter-spacing: 0.9px;
+    border: none;
+    font-size: 1rem;
     background: #424FC5;
+    color: #FFFDFD;
     box-shadow: 0px 2.79925px 8.39775px rgba(0, 0, 0, 0.1), 0px 2.79925px 5.5985px rgba(0, 0, 0, 0.06);
 }
 
