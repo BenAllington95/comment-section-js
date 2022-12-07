@@ -5,6 +5,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
+    color: #383838;
+    background-color: #F9F8FF;
 }
 
 h1 {
@@ -20,8 +22,12 @@ h1 {
 }
 
 .main-items {
-    background: #F9F8FF;
     padding: 3em 1em;
+}
+
+#feed {
+    padding: 1em;
+    background: #F9F8FF;
 }
 
 .title {
@@ -63,10 +69,32 @@ button {
     box-shadow: 0px 2.79925px 8.39775px rgba(0, 0, 0, 0.1), 0px 2.79925px 5.5985px rgba(0, 0, 0, 0.06);
 }
 
+button:hover {
+    background: #343e9a;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.comment {
+    width: 100%;
+    border-bottom: 1px solid #CACACA;
+    padding: 1em 0;
+}
+
+.comment h3 {
+    font-size: 24px;
+    margin: 0.75rem 0;
+
+}
+
+.comment p {
+    font-size: 24px;
+    color: #6B7280;
+    margin: 0.75rem 0;
+    line-height: 67px;
+}
 
