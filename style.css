@@ -44,6 +44,7 @@ textarea {
     font-family: 'Inter';
     box-sizing: border-box;
     border-radius: 4.5px;
+    color: #383838;
 }
 
 #comment-el {
@@ -87,14 +88,11 @@ button:hover {
 
 .comment h3 {
     font-size: 24px;
-    margin: 0.75rem 0;
-
 }
 
 .comment p {
     font-size: 24px;
     color: #6B7280;
-    margin: 0.75rem 0;
-    line-height: 67px;
+    word-wrap: break-word;
 }
 
