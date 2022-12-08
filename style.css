@@ -55,12 +55,13 @@ textarea {
 
 #name-el {
     width: 60%;
-    height: 50px;
+    height: 100%;
 }
 
 button {
     width: 35%; 
-    padding: 1em;   
+    height: 100%;
+    padding: 0.75em 1em;  
     border-radius: 4.5px;
     letter-spacing: 0.9px;
     border: none;
@@ -78,6 +79,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 45px;
 }
 
 .comment {

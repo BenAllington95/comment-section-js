@@ -1,17 +1,24 @@
 const comments = []
-const d = new Date()
+const nameEl = document.getElementById("name-el")
+const commentEl = document.getElementById("comment-el")
+
 
 document.getElementById("comment-btn").addEventListener("click", function(e) {
     e.preventDefault()
-    comments.unshift(
-        {
-        name: document.getElementById("name-el").value,
-        comment: document.getElementById("comment-el").value,
-        date: `${d.getDate()}/${d.getMonth()}/${d.getFullYear()}`
-        }) 
-    document.getElementById("name-el").value = ""
-    document.getElementById("comment-el").value = ""
-    render()  
+    const d = new Date()
+    
+    if (nameEl.value && commentEl.value) {
+        comments.unshift(
+            {
+            name: nameEl.value,
+            comment: commentEl.value,
+            date: `${d.getDate()}/${d.getMonth()}/${d.getFullYear()}`
+            })  
+            render() 
+    }
+    
+    nameEl.value = ""
+    commentEl.value = ""
 })
 
 
